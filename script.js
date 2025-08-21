@@ -7,13 +7,13 @@ function firstNonRepeatedChar(str) {
 		charcnt[char] = 1+ (charcnt[char]||0);
 	}
 
-	for(let ch of charcnt){
+	for(let ch of str){
 		if(charcnt[ch]===1){
 			return ch;
 		}
 	}
 
-	return null;
+return null;  
 	
 }
 const input = prompt("Enter a string");
